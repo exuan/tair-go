@@ -2,8 +2,9 @@ package tair
 
 import (
 	"context"
-	"github.com/go-redis/redis/v8"
 	"time"
+
+	"github.com/redis/go-redis/v9"
 )
 
 type ExSetArgs struct {
