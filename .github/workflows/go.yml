@@ -8,7 +8,7 @@ on:
 
 jobs:
 
-  test-ubuntu-with-redis-62:
+  test-ubuntu-with-redis-7:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
